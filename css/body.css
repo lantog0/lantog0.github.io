@@ -58,7 +58,7 @@
 }
 
 .p-blog-container p {
-  line-height: 30px;
+  line-height: 32px;
   font-size: 25px;
 }
 
@@ -69,7 +69,7 @@
 }
 
 .p-blog-container blockquote cite {
-  line-height: 30px;
+  line-height: 32px;
   font-size: 25px;
   color: #10100f;
 }
@@ -93,12 +93,12 @@
   }
 
   .p-blog-container p {
-    line-height: 36px;
+    line-height: 38px;
     font-size: 28px;
   }
 
   .p-blog-container blockquote cite {
-    line-height: 34px;
+    line-height: 38px;
     font-size: 28px;
   }
 
