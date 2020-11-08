@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Le blog</title>
+</head>
+<header>
+  <div class="wrap">
+    <nav class="header__nav">
+      <ul>
+        <li>
+          <a href="/">Inicio</a>
+        </li>
+        <li>
+          <a href="/blog/">Blog</a>
+        </li>
+        <li class="dropdown">
+          <a href="#">Traducciones</a>
+          <ul>
+            <li><a href="/translations/blog/">Blog posts</a></li>
+            <li><a href="/translations/books/">Libros</a></li>
+            <!-- <li><a href="#">Canciones</a></li> -->
+          </ul>
+        </li>
+        <li class="hidden"><a href="/translations/blog/">Blog posts</a></li>
+        <li class="hidden"><a href="/translations/books/">Libros</a></li>
+        <!-- <li class="hidden"><a href="#">Canciones</a></li> -->
+        <li>
+          <a href="/contact.html">Contacto ( ͡° ͜ʖ ͡°)</a>
+        </li>
+      </ul>
+   </nav>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+  </div>
+</header>
+<body>
+  <section>
+    <div class="wrap">
+      <div class="title-container">
+        <h2>
+          Posts
+        </h2>
+      </div>
+    </div>
+  </section>
+</body>
+  <script>
+    const navSlide = () => {
+      const burger = document.querySelector('.burger');
+      const nav = document.querySelector('.header__nav ul');
+
+      burger.addEventListener('click', () => {
+        nav.classList.toggle('nav-active')
+        burger.classList.toggle('toggle')
+      })
+    }
+
+    navSlide();
+  </script>
+<footer>
+  <div class="wrap wrap--center">
+    <p>
+      Orgullosamente escrito con Vim y sin auto corector
+    </p>
+  </div>
+</footer>

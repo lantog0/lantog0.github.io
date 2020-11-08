@@ -1,0 +1,124 @@
+.presentation-container {
+  display: flex;
+}
+
+.img-container {
+  text-align: center;
+  vertical-align: middle;
+  width: 45%;
+  margin-right: 5%;
+}
+
+.img-container .title-container h2 {
+  margin-top: 0;
+  font-size: 30px;
+}
+
+.le-homme {
+  max-width: 100%;
+  height: auto;
+}
+
+.la-bio {
+  text-align: left;
+  margin: auto 6px;
+  width: 50%
+}
+
+.title-container * {
+  font-size: 34px;
+}
+
+.blog-title-container h2 a{
+  color: #1f6f5f;
+  font-size: 26px;
+}
+
+.blog-title-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  text-align: center;
+  justify-content: center;
+}
+
+.blog-title-container time {
+  font-size: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.blog-title-container h2 {
+  margin: 10px;
+}
+
+.title-blog {
+  font-size: 38px;
+  margin-bottom: 40px;
+}
+
+.p-blog-container p {
+  line-height: 30px;
+  font-size: 25px;
+}
+
+.p-blog-container blockquote {
+  border-left: 5px solid #ADD8E6;
+  margin: 40px 20px;
+  padding: 30px;
+}
+
+.p-blog-container blockquote cite {
+  line-height: 30px;
+  font-size: 25px;
+  color: #10100f;
+}
+
+.p-blog-container blockquote cite a {
+  color: #1f6f5f;
+}
+
+@media (max-width: 800px) {
+  .presentation-container {
+    flex-direction: column;
+  }
+
+  .title-container * {
+    font-size: 36px;
+  }
+
+  .title-blog {
+    font-size: 40px;
+    margin-bottom: 60px;
+  }
+
+  .p-blog-container p {
+    line-height: 36px;
+    font-size: 28px;
+  }
+
+  .p-blog-container blockquote cite {
+    line-height: 34px;
+    font-size: 28px;
+  }
+
+  .blog-title-container h2 a{
+    font-size: 30px;
+  }
+
+  .blog-title-container time {
+    font-size: 22px;
+  }
+  .presentation-container .img-container {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .presentation-container .la-bio {
+    width: 100%;
+  }
+
+  .img-container .title-container h2, .title-container h2 {
+    font-size: 36px;
+  }
+}

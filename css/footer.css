@@ -1,0 +1,32 @@
+footer {
+  color: #fef0ff;
+  background: #10100f;
+  margin-top: 80px;
+}
+
+footer .wrap--center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .wrap {
+    height: 200px;
+    display: flex;
+}
+
+footer .wrap p {
+  color: #fef0ff;
+  margin: auto;
+  font-size: 24px;
+}
+
+@media (max-width: 800px) {
+  footer.wrap {
+    height: 150px;
+  }
+
+  footer .wrap p {
+    font-size: 26px;
+  }
+}
