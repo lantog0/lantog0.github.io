@@ -1,3 +1,6 @@
+body {
+    color: #f3f0ff;
+}
 .presentation-container {
   display: flex;
 }
@@ -46,6 +49,7 @@
   font-size: 20px;
   margin-top: auto;
   margin-bottom: auto;
+  color: #f3f0ff;
 }
 
 .blog-title-container h2 {
@@ -71,7 +75,7 @@
 .p-blog-container blockquote cite {
   line-height: 32px;
   font-size: 25px;
-  color: #10100f;
+  color: #fef0ff;
 }
 
 .p-blog-container blockquote cite a {

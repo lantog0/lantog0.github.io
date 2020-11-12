@@ -16,7 +16,7 @@
 }
 
 .header__nav ul li {
-  width: 25%;
+  width: 20%;
 }
 
 .header__nav ul li > ul {
@@ -34,13 +34,13 @@
 }
 
 .header__nav a {
-  color: #1B1B1B;
+  color: #f3f0ff;
   display: block;
   text-align: center;
 }
 
 .header__nav a:hover {
-  color: #0b0b0b;
+  color: #f1ffff;
 }
 
 .header__nav .dropdown > a:after {
@@ -55,7 +55,7 @@
 .burger div {
   width: 25px;
   height: 2px;
-  background-color: #10100f;
+  background-color: #fef0ff;
   margin: 5px;
   transition: all 0.5s ease;
 }
@@ -96,7 +96,7 @@
     top: 0px;
     right: 0px;
     height: 100vh;
-    background-color: #10100f;
+    background-color: #fef0ff;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -116,7 +116,7 @@
 
 
   .header__nav ul li a {
-    color: #fef0ff;
+    color: #040100;
   }
 
   .burger {
@@ -146,7 +146,7 @@
 
 .toggle .line1 {
   transform: rotate(-45deg) translate(-5px, 6px);
-  background-color: #fef0ff;
+  background-color: #040100;
 }
 
 .toggle .line2 {
@@ -156,7 +156,7 @@
 .toggle .line3 {
   transform: rotate(45deg) translate(-5px, -6px);
   background-color: white;
-  background-color: #fef0ff;
+  background-color: #040100;
 }
 
 

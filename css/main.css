@@ -1,5 +1,5 @@
 body {
-  background: #fef0ff;
+  background: #040100;
   margin: 0;
 }
 
@@ -24,7 +24,7 @@ body {
 
 h1, h2, h3, h4, h5 {
   text-align: center;
-  color: #10100f;
+  color: #fef0ff;
 }
 
 a {
@@ -39,11 +39,11 @@ li {
 p {
   font-size: 22px;
   line-height: 28px;
-  color: #301f0f;
+  color: #f3f0ff;
 }
 
 p i {
-  color: #10100b;
+  color: #f3f0ff;
 }
 
 section {
